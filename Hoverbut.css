@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.button{
+    position: relative;
+    padding: 20px 50px;
+    color: #fe01b1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 10px;
+    border: 2px solid #fe01b1;
+   
+}
+.button:hover{
+    background-color: #fe01b1;
+    color: #000;
+animation: bli 1s linear forwards;
+}
+@keyframes bli{
+    0%,
+    16%,
+    20%,
+    50.1%,
+    60%,
+    66.1%,
+    80%,
+    90.1%,
+    92% {
+        color: transparent;
+        box-shadow:none;
+    }
+16.1%,
+20.1%,
+30%,
+50%,
+60.1%,
+66%,
+80.1%,
+90%,
+92.1%,
+100%{
+    color: #000;
+    box-shadow: 0 0 5px #fe01b1, 0 0 25px #fe01b1, 0 0 50px #fe01b1, 0 0 100px #fe01b1, 0 0 200px #fe01b1, ;
+}
+
+}
